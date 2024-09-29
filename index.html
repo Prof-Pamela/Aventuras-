@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="link rel="preconnect href="https://fonts.googleapis.com">
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Buscando o tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="Imagens da Aventura/brasil-passo0.jpg" alt="">
+            <p>O jogador recebe uma carta misteriosa que fala sobre as 7 maravilhas do Brasil e a missão de visitá-las.</p>
+            <button class="btn-proximo" data-proximo="1">Começar a aventura pelas Cataratas do Iguaçu.</button>
+            <button class="btn-proximo" data-proximo="2">Iniciar a jornada no Cristo Redentor, no Rio de Janeiro.</button>
+        </div>
+        <div class="passo" id="passo-1">
+       <img src="cataratas-passo1.jpg" alt="">
+            <p>Você começa sua jornada em busca de pistas na Cataratas do Iguaçu.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar as trilhas ao redor das Cataratas do Iguaçu e encontrar uma pista secreta.</button>
+            <button class="btn-proximo" data-proximo="4">Explorar a floresta subtropical.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="Imagens da Aventura/cristo-redentor.jpg" alt="">
+            <p>No Rio de Janeiro, você decide subir ao topo do Cristo Redentor e descobri um mapa antigo, que te levar a visitar novos lugares para poder encontar mais pistas.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir para a Amazonia, em busca de mais pistas.</button>
+            <button class="btn-proximo" data-proximo="6">Ir para o Parque Nacional de Fernando de Noronha e investigar as praias.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>As pistas encontradas nas cataratas te leva para novos lugares, que estão cheios de desafios no caminho.</p>
+            <button class="btn-proximo" data-proximo="7">Enfrentar a travessia de um rio perigoso no Pantanal para alcançar uma pista.</button>
+            <button class="btn-proximo" data-proximo="8">Mergulhar em Fernando de Noronha e encontrar uma caverna submersa.</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Depois de explorar a linda floresta tropical, você precisa tomar uma decisão sobre o Próximo Destino</p>
+            <button class="btn-proximo" data-proximo="9">Visitar a Amazônia e explorar a Floresta Amazônica.</button>
+            <button class="btn-proximo" data-proximo="10">Explorar o Teatro Amazonas, em Manaus, e descobrir segredos culturais.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Aventuras na Amazônia</p>
+            <img src="Imagens da Aventura/Amazonia.jpeg" alt="">
+            <button class="btn-proximo" data-proximo="11">Ficar por ali mesmo para explorar mais.</button>
+            <button class="btn-proximo" data-proximo="12">Ir embora e compartilhar as descobertas com o mundo, tornando-se um explorador famoso.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Em Fernando de Noronha</p>
+            <button class="btn-proximo" data-proximo="13">Aproveitar as praias</button>
+            <button class="btn-proximo" data-proximo="14">Retornar para casa, guardando as lembranças e conhecimentos adquiridos.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você precisa atravessar o rio e tem sorte de achar um barco</p>
+            <img src="Imagens da Aventura/rio pantanal.webp" alt="">
+            <button class="btn-proximo" data-proximo="15">Atravessar o rio e continuar a jornada.</button>
+            <button class="btn-proximo" data-proximo="16">Desistir.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você chega em Fernando de noronha e segue em busca da caverna</p>
+            <img src="Imagens da Aventura/noronha-praias.jpg" alt="">
+            <button class="btn-proximo" data-proximo="17">Desistir da caverna e ir aproveitar as praias.</button>
+            </div>
+            <div class="passo" id="passo-9">
+                <p>Você decide ficar na Amazônia por um tempo para poder explorar tudo o que há por lá.</p>
+                <img src="Imagens da Aventura/explorar-amazonia.jpg" alt="">
+                </div>
+                <div class="passo" id="passo-10">
+                    <p>O encanto dos teatros</p>
+                    <img src="Imagens da Aventura/teatro-amazonas.jpeg" alt="">
+                    <button class="btn-proximo" data-proximo="18">Você se encanta com o teatro e decide que quer fazer parte dele.</button>
+            </div>
+            <div class="passo" id="passo-11">
+                <p>Na aldeia você consegue informações com pessoas sabias que dizem que os melhores lugares são aqueles que estão as pessoas que amamos.</p>
+                <img src="Imagens da Aventura/familia.jfif" alt="">
+            </div>
+            <div class="passo" id="passo-12">
+                <p>Você chega em sua cidade natal e compartilha todas as suas descobertas.</p>
+                <img src="Imagens da Aventura/compartilhar.jfif" alt="">
+                </div>
+        </div>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
